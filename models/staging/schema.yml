@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: dbt-dtc-de-copy-377803
+    schema: dbt_copy
+    
+    tables:
+      - name: ny_green_taxi_all
+      - name: ny_yellow_taxi_all
